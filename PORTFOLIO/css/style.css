@@ -1,0 +1,112 @@
+* {
+margin: 0;  
+padding: 0px;
+box-sizing: border-box; 
+}
+
+ul {
+list-style: none;    
+}
+
+a{
+ text-decoration: none;   
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+position: sticky;
+top: 0;  
+left: 0;  
+/* z-index: 1; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1.5rem 3.5rem;
+background-color: #fff;
+}
+
+nav a{
+color: black;
+transition: 0.5s;
+}
+
+nav a:hover{
+color: blue;
+}
+
+nav ul{
+display: flex;
+gap: 1.10rem;
+}
+
+nav ul li {
+font-weight: bold;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+
+.logo img{
+ height: auto;  
+ width: 200px; 
+}
+
+.intro{
+display: flex;   
+}
+
+.aboutme{
+text-align: center;
+align-items: center;
+margin: auto;
+width: 50%;
+}
+
+#skills{
+    color: black;
+}
+
+
+.navigation {
+    background-color: #fff;
+    overflow: hidden;
+    justify-content: space-between;
+    
+}
+
+ul li {
+  float: right;
+  color: black;
+  text-align: center;
+}
+
+
+
+#namelogo {
+width: 20%;
+height: 100%;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    right: 80px;
+}
+
+.skills{
+    display: flex;   
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    }
